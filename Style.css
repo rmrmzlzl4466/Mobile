@@ -1,0 +1,1613 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(Img/Background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.work
+{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 6000px;
+    background-color: #ffffff02;
+    display: flex;
+    flex-direction: row;
+    scale: 80%;
+    justify-content: center;
+}
+
+.work .div
+{
+    background-color: #ffffff02;
+    width: 1440px;
+    height: 2200px;
+    top: -750px;
+    position: relative;
+}
+
+.work .header
+{
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+    .work .logo-main
+    {
+        position: absolute;
+        width: 230px;
+        height: 119px;
+        top: 15px;
+        left: 606px;
+        object-fit: cover;
+    }
+
+    .work .pattern01
+    {
+        left: 0;
+        position: absolute;
+        width: 601px;
+        height: 40px;
+        top: 54px;
+
+    }
+
+    .work .pattern02
+    {
+        left: 840px;
+        position: absolute;
+        width: 601px;
+        height: 40px;
+        top: 54px;
+    }
+
+.work .top
+{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    top: 198px;
+    left: 0;
+}
+
+.work .frame01 {
+    width: 180px;
+    display: flex; /* flexbox 레이아웃을 적용합니다 */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 19px 32px;
+    left: 1066px;
+    border-radius: 4px;
+    border: 2px solid #3c859d; /* 테두리 색상 설정 */
+    height: 72px;
+    position: absolute;
+    top: 0;
+    background-color: transparent; /* 초기 배경색을 투명하게 설정 */
+    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 추가 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+    .work .frame02
+    {
+        width: 294px;
+        align-items: center;
+        gap: 18px;
+        padding: 18px 49px;
+        left: 147px;
+        border-radius: 4px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: #9e6c36;
+        display: flex;
+        height: 72px;
+        position: absolute;
+        top: 0;
+    }
+
+    .work .frame03
+    {
+        width: 512px;
+        align-items: center;
+        gap: 55px;
+        padding: 19px 24px;
+        left: 536px;
+        background-color: #01293a;
+        border-radius: 4px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-color: #3c859d;
+        display: flex;
+        height: 72px;
+        position: absolute;
+        top: 0;
+    }
+
+    .work .frame01:hover {
+        background-color: #3c859d;
+    }
+    
+    .work .frame01:hover .text-wrapper01 {
+        color: #ffffff;
+    }
+    
+    /* 클릭(액티브) 효과: 배경색을 더 어두운 색으로 변경 */
+    .work .frame01:active {
+        background-color: #2e6e7a; /* 원하는 어두운 색상으로 조정 */
+    }
+    
+    .work .frame01:active .text-wrapper01 {
+        color: #ffffff;
+    }
+    
+
+    .work .text-wrapper01 {
+        position: relative;
+        width: fit-content;
+        font-family: "Roboto-Bold", Helvetica, sans-serif; /* 폰트 패밀리 추가 */
+        font-weight: 700;
+        color: #3c859d; /* 텍스트 초기 색상 */
+        font-size: 28px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+        transition: color 0.3s; /* 부드러운 색상 전환 효과 */
+    }
+
+    .work .text-wrapper02
+    {
+        position: relative;
+        width: fit-content;
+        font-family: "Roboto-Medium", Helvetica;
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .work .text-wrapper03
+    {
+        position: relative;
+        width: fit-content;
+        margin-top: 2px;
+        font-family: "Roboto-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff88;
+        font-size: 26px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+    .work .search-button 
+    {
+        background-color: transparent; /* 배경을 투명으로 설정 */
+        border: none; /* 테두리가 필요 없다면 제거 */
+        cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+        padding: 0; /* 패딩을 제거하여 이미지 크기에 맞춤 */
+    }
+    
+    .work .text-wrapper04
+    {
+        position: relative;
+        left: 16px;
+        width: fit-content;
+        margin-top: 2px;
+        color: #ffffff;
+        font-family: "Roboto-Bold", Helvetica;
+        font-weight: 500;
+        background-color: transparent;
+        font-size: 24px;
+        text-align: center;
+        line-height: normal;
+        white-space: nowrap;
+        border: none;
+        transition: text-align 0.3s ease;
+    }
+
+    .work .icon-wrapper
+    {
+        flex-direction: column;
+        width: 72px;
+        border-radius: 4px;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 22px 18px;
+        left: 1264px;
+        background-color: #01293a;
+        display: flex;
+        height: 72px;
+        position: absolute;
+        top: 0;
+    }
+
+    .work .icon-search
+    {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: -4px;
+    }
+
+    .work .icon-share
+    {
+        position: relative;
+        width: 36px;
+        height: 28px;
+    }
+
+    .work .ellipse
+    {
+        position: relative;
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff;
+        border-radius: 6px;
+    }
+
+.work .middle
+{
+    position: absolute;
+    width: 1440px;
+    height: 553px;
+    top: 315px;
+    left: 0;
+    background-color: transparent;
+}
+
+    .work .tier
+    {
+        position: absolute;
+        width: 368px;
+        height: 553px;
+        background-image: url(Img/Status_Tier.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        top: 0;
+        left: 110px;
+    }
+
+    .work .icon-favorite
+    {
+        position: absolute;
+        width: 30px;
+        height: 45px;
+        top: 50px;
+        left: 296px;
+    }
+
+    .work .tier-master
+    {
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        top: 95px;
+        left: 49px;
+        object-fit: cover;
+    }
+
+    .work .text-wrapper05
+    {
+        position: absolute;
+        height: 47px;
+        top: 377px;
+        left: 95px;
+        font-family: "Roboto-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffffe0;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .work .text-wrapper06
+    {
+        position: absolute;
+        height: 38px;
+        top: 436px;
+        left: 80px;
+        font-family: "Roboto-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #86a9b8;
+        font-size: 32px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .work .text-wrapper07
+    {
+        position: absolute;
+        height: 38px;
+        top: 436px;
+        left: 200px;
+        font-family: "Roboto-SemiBold", Helvetica;
+        font-weight: 600;
+        color: #86a9b8;
+        font-size: 32px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .work .recent-match
+    {
+        position: absolute;
+        width: 794px;
+        height: 170px;
+        background-image: url(Img/Recent_Match.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        top: 0;
+        left: 536px;
+    }
+
+        .work .text-wrapper08
+        {
+            position: absolute;
+            top: 25px;
+            left: 30px;
+            font-family: "Roboto-Medium", Helvetica;
+            font-weight: 500;
+            color: #ffffff;
+            font-size: 22px;
+            letter-spacing: 0;
+            line-height: normal;
+            white-space: nowrap;
+        }
+
+        .work .place1 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 30px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #ffb01f;
+        }
+
+        .work .place2 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 74px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cb009f;
+        }
+
+        .work .place3 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 118px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #00d970;
+        }
+
+        .work .place4 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 162px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #28a2ff;
+        }
+
+        .work .place5 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 206px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc;
+        }
+
+        .work .place6 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 250px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc;
+        }
+
+        .work .place7 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 294px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc;
+        }
+
+        .work .place8 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 338px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #ffb01f;
+        }
+
+        .work .place9 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 382px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #28a2ff;
+        }
+
+        .work .place10 {
+            padding: 3px 12px;
+            top: 64px;
+            left: 426px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #00d970;
+        }
+
+        .work .place11 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 30px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place12 {
+            padding: 3px 12px;
+            top: 108px;
+            left: 74px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #ffb01f; /* 색상 포함 */
+        }
+        
+        .work .place13 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 118px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place14 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 162px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place15 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 206px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place16 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 250px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place17 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 294px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #00d970; /* 색상 포함 */
+        }
+        
+        .work .place18 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 338px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place19 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 382px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+        
+        .work .place20 {
+            padding: 3px 12px;
+            top: 108px; /* 변경됨 */
+            left: 426px;
+            display: flex;
+            flex-direction: column;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            border-radius: 4px;
+            border: 4px solid #cccccc; /* 색상 포함 */
+        }
+
+        .work .p
+        {
+            position: relative;
+            width: fit-content;
+            margin-top: 2px;
+            font-family: "Pretendard-Bold", Helvetica;
+            font-weight: 400;
+            color: #003649;
+            font-size: 24px;
+            text-align: center;
+            letter-spacing: -0.5px;
+            line-height: normal;
+        }
+
+        .work .span
+        {
+            font-weight: 700;
+            letter-spacing: -0.12px;
+        }
+
+        .work .frame-avg
+        {
+            padding: 12px 15px;
+            left: 484px;
+            display: flex;
+            flex-direction: column;
+            width: 80px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            top: 64px; 
+            background-color: #ffffff54;
+            border-radius: 4px;
+        }
+
+        .work .frame-rate
+        {
+            padding: 0px 15px;
+            left: 582px;
+            display: flex;
+            flex-direction: column;
+            width: 80px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            top: 64px;
+            background-color: #ffffff54;
+            border-radius: 4px;
+        }
+
+        .work .frame-lp
+        {
+            padding: 12px 15px;
+            left: 680px;
+            display: flex;
+            flex-direction: column;
+            width: 80px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            top: 64px;
+            background-color: #ffffff54;
+            border-radius: 4px;
+        }
+        
+        
+        .work .text-wrapper09
+        {
+            letter-spacing: -0px;
+            position: relative;
+            width: fit-content;
+            margin-top: 2px;
+            font-family: "Roboto-Bold", Helvetica;
+            font-weight: 700;
+            color: #ffffffbf;
+            font-size: 22px;
+            text-align: center;
+            line-height: normal;
+        }
+
+        .work .text-wrapper10
+        {
+            margin-top: -2px;
+            font-family: "Roboto-Bold", Helvetica;
+            font-size: 20px;
+            letter-spacing: 0px;
+        }
+
+
+    .work .graph
+    {
+        position: absolute;
+        width: 794px;
+        height: 329px;
+        top: 218px;
+        left: 536px;
+        background-image: url(Img/50_Match.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .work .graphzone01
+    {
+        position: relative;
+        width: 734px;
+        height: 269px;
+        top: 30px;
+        left: 30px;
+        background-color: #86a9b8;
+    }
+
+.work .bottom
+{
+    position: absolute;
+    width: 1440px;
+    height: 764px;
+    top: 898px;
+    left: 0;
+}
+
+.work .info
+{
+    position: absolute;
+    width: 368px;
+    height: 764px;
+    top: 0;
+    left: 110px;
+}
+
+        .work .info-detail01
+        {
+            align-items: center;
+            padding: 32px 43px;
+            top: 198px;
+            left: 0;
+            display: flex;
+            width: 170px;
+            height: 170px;
+            gap: 10px;
+            position: absolute;
+            background-image: url(Img/Info_Box.png);
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+
+        .work .text01
+        {
+            width: 78px;
+            height: 116px;
+            align-items: center;
+            gap: 12px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .work .text-wrapper11
+        {
+            position: relative;
+            align-self: stretch;
+            margin-top: -1px;
+            font-family: "Roboto-Bold",Helvetica;
+            font-weight: 700;
+            color: #cccccc;
+            font-size: 28px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+
+        .work .match
+        {
+            position: relative;
+            align-self: stretch;
+            font-family: "Roboto-Bold", Helvetica;
+            font-weight: 700;
+            color: #86a9b8;
+            font-size: 48px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+
+.work .info-detail02
+{
+    align-items: center;
+    padding: 26px 46px;
+    top: 396px;
+    left: 0;
+    display: flex;
+    width: 170px;
+    height: 170px;
+    gap: 10px;
+    position: absolute;
+    background-image: url(Img/Info_Box.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.work .text02
+{
+    width: 78px;
+    height: 116px;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.work .text-wrapper12
+{
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Roboto-Bold",Helvetica;
+    font-weight: 700;
+    color: #cccccc;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;    
+}
+
+.work .top4
+{
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #86a9b8;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .info-detail03 {
+    align-items: center;
+    padding: 26px 46px;
+    top: 594px;
+    left: 0;
+    display: flex;
+    width: 170px;
+    height: 170px;
+    gap: 10px;
+    position: absolute;
+    background-image: url(Img/Info_Box.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    justify-content: center;
+}
+
+.work .text03 {
+    width: 117px;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.work .text-wrapper13 {
+    position: relative;
+    top: -12px;
+    width: 150px;
+    height: 16px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .wongame {
+    position: relative;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #86a9b8;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+.work .info-detail04
+{
+    align-items: center;
+    padding: 30px 27px;
+    top: 198px;
+    left: 198px;
+    display: flex;
+    width: 170px;
+    height: 170px;
+    gap: 10px;
+    position: absolute;
+    background-image: url(Img/Info_Box.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.work .text04 {
+    width: 85px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수평 중앙 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
+    gap: 16px;
+    position: relative;
+}
+
+.work .text-wrapper14 {
+    position: relative;
+    top: -10px;
+    left: 14px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #cccccc;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .avg {
+    position: relative;
+    top: -11px;
+    left: 14px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #86a9b8;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+.work .info-detail05
+{
+    align-items: center;
+    padding: 30px 26px;
+    top: 396px;
+    left: 198px;
+    display: flex;
+    width: 170px;
+    height: 170px;
+    gap: 10px;
+    position: absolute;
+    background-image: url(Img/Info_Box.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.work .text05 {
+    width: 117px;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.work .text-wrapper15 {
+    position: relative;
+    top: -12px;
+    width: 150px;
+    height: 16px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .top4rate {
+    position: relative;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #86a9b8;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .info-detail06
+{
+    align-items: center;
+    padding: 30px 29px;
+    top: 594px;
+    left: 198px;
+    display: flex;
+    width: 170px;
+    height: 170px;
+    gap: 10px;
+    position: absolute;
+    background-image: url(Img/Info_Box.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.work .text06 {
+    width: 117px;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.work .text-wrapper16 {
+    position: relative;
+    top: -12px;
+    width: 150px;
+    height: 16px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .wonrate {
+    position: relative;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #86a9b8;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .info-carry
+{
+    position: absolute;
+    width: 368px;
+    height: 170px;
+    top: 0;
+    left: 0;
+    background-image: url(Img/Carry_Unit.png);
+    background-size: cover;
+}
+
+.work .text07
+{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    align-items: flex-end;
+    gap: 22px;
+    position: relative;
+    top: 27px;
+    left: 160px;
+}
+
+.work .text-wrapper17
+{
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffffe0;
+    font-size: 45px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .text-wrapper18
+{
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 400;
+    color: #55707b;
+    font-size: 36px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.work .stat
+{
+    position: absolute;
+    width: 794px;
+    height: 764px;
+    top: 0;
+    left: 536px;
+    background-image: url(Img/GraphBox.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.work .stattext
+{
+    position: absolute;
+    width: 240px;
+    height: 704px;
+    top: 30px;
+    left: 484px;
+}
+
+.work .text-wrapper19
+{
+    position: absolute;
+    height: 49px;
+    top: 0;
+    left: 0;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffffa8;
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+.work .text-wrapper20 {
+    position: absolute;
+    height: 28px;
+    top: 154px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper21 {
+    position: absolute;
+    height: 28px;
+    top: 208px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper22 {
+    position: absolute;
+    height: 28px;
+    top: 262px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper23 {
+    position: absolute;
+    height: 28px;
+    top: 316px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper24 {
+    position: absolute;
+    height: 28px;
+    top: 370px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper25 {
+    position: absolute;
+    height: 28px;
+    top: 424px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper26 {
+    position: absolute;
+    height: 28px;
+    top: 478px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper27 {
+    position: absolute;
+    height: 28px;
+    top: 532px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper28 {
+    position: absolute;
+    height: 28px;
+    top: 586px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.work .text-wrapper29 {
+    position: absolute;
+    height: 28px;
+    top: 640px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffa8;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+.work .graphzone02
+{
+    position:absolute;
+    width: 420px;
+    height: 704px;
+    top: 30px;
+    left: 30px;
+    background-color: #ffffff33;
+}
+
+/* 기존 CSS 코드 위에 추가 또는 수정 */
+
+#chart-container1, #chart-container2 {
+    width: 100%;
+    height: 100%;
+}
+
+.work .graphzone01, .work .graphzone02 {
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+}
+
+.work .graphzone01 {
+    width: 734px;
+    height: 269px;
+    top: 30px;
+    left: 30px;
+}
+
+.work .graphzone02 {
+    width: 420px;
+    height: 704px;
+    top: 30px;
+    left: 30px;
+}
+
+/* 필요에 따라 하이차트의 레이블이 잘리지 않도록 조정 */
+.highcharts-container {
+    overflow: visible !important;
+}
+
+.work .under
+{
+    position: absolute;
+    width: 1440px;
+    height: 4170px;
+    top: 1692px;
+    left: 0;
+}
+
+.work .report01 {
+    top: 0px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report02 {
+    top: 210px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report03 {
+    top: 420px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report04 {
+    top: 630px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report05 {
+    top: 840px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report06 {
+    top: 1050px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report07 {
+    top: 1260px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report08 {
+    top: 1470px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report09 {
+    top: 1680px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report10 {
+    top: 1890px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report11 {
+    top: 2100px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report12 {
+    top: 2310px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report13 {
+    top: 2520px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report14 {
+    top: 2730px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report15 {
+    top: 2940px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report16 {
+    top: 3150px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report17 {
+    top: 3360px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report18 {
+    top: 3570px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report19 {
+    top: 3780px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}
+
+.work .report20 {
+    top: 3990px;
+    position: absolute;
+    width: 1220px;
+    height: 180px;
+    left: 110px;
+    object-fit: cover;
+}

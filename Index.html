@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css" />
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="Js/Work.js"></script>
+</head>
+<body>
+    <div class="work">
+        <div class="div">
+            <div class="header">
+                <img class="pattern01" src="Img/Pattern01.png" />
+                <img class="pattern02" src="Img/Pattern02.png" />
+                <img class="logo-main" src="Img/Logo_Main.png" />
+            </div>
+
+            <div class="top">
+                <div class="frame01">
+                    <div class="text-wrapper01">UPDATE</div>
+                </div>
+                <div class="frame02">
+                    <div class="ellipse"></div>
+                    <div class="text-wrapper02">S12</div>
+                    <div class="text-wrapper02">Master</div>
+                </div>
+                <div class="frame03">
+                    <div class="text-wrapper03">KR</div>
+                    <input 
+                        type="text" 
+                        id="playerIdInput" 
+                        placeholder="Search Player ID" 
+                        class="text-wrapper04" 
+                    />
+                    <button type="button" class="search-button" id="searchButton" aria-label="Search">
+                        <img class="icon-search" src="Img/Icon_Search.png" alt="Search" />
+                    </button>
+                </div>
+                <div>
+                    <div class="icon-wrapper">
+                        <img class="icon-share" src="Img/Icon_Share.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="tier">
+                    <img class="icon-favorite" src="Img/Icon_Favorite.png" />
+                    <img class="tier-master" src="Img/Tier.png" />
+                    <div class="text-wrapper05">SUB SeoB</div>
+                    <div class="text-wrapper06">Master</div>
+                    <div class="text-wrapper07">209LP</div>
+                </div>
+                <div class="recent-match">
+                    <div class="text-wrapper08">Recent 20 Matches</div>
+                    <div class="place1"><div class="text-wrapper09">1</div></div>
+                    <div class="place2"><div class="text-wrapper09">2</div></div>
+                    <div class="place3"><div class="text-wrapper09">4</div></div>
+                    <div class="place4"><div class="text-wrapper09">3</div></div>
+                    <div class="place5"><div class="text-wrapper09">8</div></div>
+                    <div class="place6"><div class="text-wrapper09">7</div></div>
+                    <div class="place7"><div class="text-wrapper09">6</div></div>
+                    <div class="place8"><div class="text-wrapper09">1</div></div>
+                    <div class="place9"><div class="text-wrapper09">3</div></div>
+                    <div class="place10"><div class="text-wrapper09">2</div></div>
+                    <div class="place11"><div class="text-wrapper09">8</div></div>
+                    <div class="place12"><div class="text-wrapper09">1</div></div>
+                    <div class="place13"><div class="text-wrapper09">7</div></div>
+                    <div class="place14"><div class="text-wrapper09">8</div></div>
+                    <div class="place15"><div class="text-wrapper09">5</div></div>
+                    <div class="place16"><div class="text-wrapper09">5</div></div>
+                    <div class="place17"><div class="text-wrapper09">4</div></div>
+                    <div class="place18"><div class="text-wrapper09">8</div></div>
+                    <div class="place19"><div class="text-wrapper09">5</div></div>
+                    <div class="place20"><div class="text-wrapper09">6</div></div>
+                    <div class="frame-avg">
+                        <p class="p">
+                            <span class="span">4.27<br /></span> <span class="text-wrapper10">Avg</span>
+                        </p>
+                    </div>
+                    <div class="frame-rate">
+                        <p class="p">
+                            <span class="span">45%<br /></span> <span class="text-wrapper10">Rate</span>
+                        </p>
+                    </div>
+                    <div class="frame-lp">
+                        <p class="p">
+                            <span class="span">-109<br /></span> <span class="text-wrapper10">LP</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="graph">
+                    <div class="graphzone01">
+                        <!-- Highcharts container for graphzone01 -->
+                        <div id="chart-container1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="info">
+                    <div class="info-detail01">
+                        <div class="text01">
+                            <div class="text-wrapper11">Match</div>
+                            <div class="match">128</div>
+                        </div>
+                    </div>
+                    <div class="info-detail02">
+                        <div class="text02">
+                            <div class="text-wrapper12">TOP4</div>
+                            <div class="top4">45</div>
+                        </div>
+                    </div>
+                    <div class="info-detail03">
+                        <div class="text03">
+                            <div class="text-wrapper13">WON GAME</div>
+                            <div class="wongame">12</div>
+                        </div>
+                    </div>
+                    <div class="info-detail04">
+                        <div class="text04">
+                            <div class="text-wrapper14">Avg</div>
+                            <div class="avg">4.27</div>
+                        </div>
+                    </div>
+                    <div class="info-detail05">
+                        <div class="text05">
+                            <div class="text-wrapper15">TOP4 RATE</div>
+                            <div class="top4rate">35%</div>
+                        </div>
+                    </div>
+                    <div class="info-detail06">
+                        <div class="text06">
+                            <div class="text-wrapper16">WON RATE</div>
+                            <div class="wonrate">10.2%</div>
+                        </div>
+                    </div>
+                    <div class="info-carry">
+                        <div class="text07">
+                            <div class="text-wrapper17">Morgana</div>
+                            <div class="text-wrapper18">Top Carry</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="stattext">
+                        <div class="text-wrapper19">Player Stats</div>
+                        <div class="text-wrapper20">Games: 128</div>
+                        <div class="text-wrapper21">Place: 1st</div>
+                        <div class="text-wrapper22">TOP 4: 45</div>
+                        <div class="text-wrapper23">WIN: 12</div>
+                        <div class="text-wrapper24">Avg. Lvl: 7.2</div>
+                        <div class="text-wrapper25">Avg. Damage: 3,450</div>
+                        <div class="text-wrapper26">Avg. Eliminated: 5</div>
+                        <div class="text-wrapper27">Avg. Star Level: 2.3</div>
+                        <div class="text-wrapper28">Avg. Team Cost: 83</div>
+                        <div class="text-wrapper29">Contested: 8</div>
+                    </div>
+                    <div class="graphzone02">
+                        <!-- Highcharts container for graphzone02 -->
+                        <div id="chart-container2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="under">
+                <img class="report20" id="report20" src="Img/1st.png" />
+                <img class="report19" id="report19" src="Img/2nd.png" />
+                <img class="report18" id="report18" src="Img/3rd.png" />
+                <img class="report17" id="report17" src="Img/4rd.png" />
+                <img class="report16" id="report16" src="Img/1st.png" />
+                <img class="report15" id="report15" src="Img/2nd.png" />
+                <img class="report14" id="report14" src="Img/3rd.png" />
+                <img class="report13" id="report13" src="Img/4rd.png" />
+                <img class="report12" id="report12" src="Img/1st.png" />
+                <img class="report11" id="report11" src="Img/2nd.png" />
+                <img class="report10" id="report10" src="Img/3rd.png" />
+                <img class="report09" id="report09" src="Img/4rd.png" />
+                <img class="report08" id="report08" src="Img/1st.png" />
+                <img class="report07" id="report07" src="Img/2nd.png" />
+                <img class="report06" id="report06" src="Img/3rd.png" />
+                <img class="report05" id="report05" src="Img/4rd.png" />
+                <img class="report04" id="report04" src="Img/1st.png" />
+                <img class="report03" id="report03" src="Img/2nd.png" />
+                <img class="report02" id="report02" src="Img/3rd.png" />
+                <img class="report01" id="report01" src="Img/4rd.png" />
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        // Chart for graphzone01
+        Highcharts.chart('chart-container1', {
+            chart: {
+                type: 'line',
+                backgroundColor: 'transparent'
+            },
+            title: {
+                text: 'Recent 20 Matches',
+                align: 'left',
+                style: {
+                    color: 'rgba(255, 255, 255, 0.88)',
+                    fontSize: '16px'
+                }
+            },
+            xAxis: {
+                categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
+                             '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'],
+                labels: {
+                    style: {
+                        color: 'rgba(255, 255, 255, 0.88)',
+                        fontSize: '13px'
+                    },
+                    rotation: 0
+                },
+                lineColor: 'rgba(255, 255, 255, 0.77)'
+            },
+            yAxis: {
+                title: {
+                    text: null
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineColor: 'rgba(255, 255, 255, 0.5)',
+                lineColor: 'rgba(255, 255, 255, 0.77)'
+            },
+            tooltip: {
+                style: {
+                    color: '#BC52EC',
+                    fontSize: '16px'
+                },
+                useHTML: true,
+                padding: 15,
+                formatter: function() {
+                    var randomLP = Math.floor(Math.random() * (250 - 100 + 1)) + 100;
+                    return 'Master ' + randomLP + 'LP';
+                }
+            },
+            plotOptions: {
+                series: {
+                    cursor: 'pointer',
+                    point: {
+                        events: {
+                            click: function () {
+                                var pointNumber = this.index + 1;
+                                var reportId = 'report' + pointNumber;
+                                var targetElement = document.getElementById(reportId);
+                                if (targetElement) {
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                } else {
+                                    console.warn('Element with ID ' + reportId + ' not found.');
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: 'Placement Over Last 20 Games',
+                data: [1, 2, 4, 3, 8, 7, 6, 1, 3, 2, 8, 1, 7, 8, 5, 5, 4, 8, 5, 6],
+                color: '#9A6A35',
+                lineWidth: 3
+            }],
+            exporting: {
+                enabled: false
+            },
+            credits: {
+                enabled: false
+            },
+            legend: {
+                enabled: false
+            }
+        });
+
+        // Chart for graphzone02
+        Highcharts.chart('chart-container2', {
+            chart: {
+                type: 'column',
+                backgroundColor: 'transparent'
+            },
+            title: {
+                text: 'Player Placement',
+                align: 'left',
+                style: {
+                    color: 'rgba(255, 255, 255, 0.88)',
+                    fontSize: '16px'
+                }
+            },
+            xAxis: {
+                categories: ['1', '2', '3', '4', '5', '6', '7', '8'],
+                labels: {
+                    style: {
+                        color: 'rgba(255, 255, 255, 0.88)',
+                        fontSize: '13px'
+                    },
+                    rotation: 0
+                },
+                lineColor: 'rgba(255, 255, 255, 0.77)'
+            },
+            yAxis: {
+                title: {
+                    text: null
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineColor: 'rgba(255, 255, 255, 0.5)',
+                lineColor: 'rgba(255, 255, 255, 0.77)'
+            },
+            tooltip: {
+                style: {
+                    color: null,
+                    fontSize: '24px'
+                },
+                padding: 8,
+                formatter: function() {
+                    var pointColor = this.point.color;
+                    return '<span style="color:' + pointColor + '"><b>' + this.y + '</b></span>';
+                }
+            },
+            series: [{
+                name: 'Statistics',
+                data: [12, 43, 12, 42, 35, 55, 98, 10],
+                colorByPoint: true,
+                colors: [
+                    '#FFB11F',
+                    '#CB009F',
+                    '#29A2FF',
+                    '#00DA70',
+                    '#CCCCCC',
+                    '#CCCCCC',
+                    '#CCCCCC',
+                    '#CCCCCC'
+                ]
+            }],
+            exporting: {
+                enabled: false
+            },
+            credits: {
+                enabled: false
+            },
+            legend: {
+                enabled: false
+            }
+        });
+    </script>
+</body>
+</html>
